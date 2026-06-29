@@ -1,0 +1,10 @@
+server:
+  port: 8100
+
+spring:
+  application:
+    name: kafka-consumer
+
+  kafka:
+    consumer:
+      bootstrap-servers: localhost:9092
